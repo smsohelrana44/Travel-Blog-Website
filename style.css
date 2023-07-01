@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+/* Create own custom scrollbar */
+/* width */
+::-webkit-scrollbar{
+    width: 8px;
+}
+/* Scrollbar Track */
+::-webkit-scrollbar-track{
+    background: #f0f0f0;
+}
